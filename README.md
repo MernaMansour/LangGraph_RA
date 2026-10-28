@@ -4,7 +4,7 @@ A Python-based AI research assistant that uses **LangGraph** to coordinate topic
 
 ## Streamlit Interface
 
-![Streamlit Research Assistant interface](screenshots/streamlit-app.png)
+![Streamlit Research Assistant interface](Streamlit_SS.png)
 
 > Screenshot: add a real screenshot of the running Streamlit application to `screenshots/streamlit-app.png` to display it here on GitHub.
 
