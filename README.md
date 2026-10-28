@@ -74,18 +74,6 @@ python -m pip install -r requirements.txt
 
 If PowerShell blocks virtual environment activation, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and try again.
 
-## API Configuration
-
-Set environment variables for your **own supported OpenAI-compatible provider**. For local development, create a `.env` file (excluded from Git):
-
-```dotenv
-OPENAI_API_KEY=YOUR_API_KEY
-OPENAI_API_BASE=YOUR_PROVIDER_BASE_URL
-```
-
-The current research assistant script uses a provider-specific model ID (`gpt-5.6-luna`). Change the model setting to an ID available from your provider. The KodeKloud lab proxy and its model aliases are not guaranteed to work on a local machine.
-
-> If your Python script expects environment variables, ensure it loads `.env` using `from dotenv import load_dotenv` and `load_dotenv()`, or configure the variables in PowerShell before starting the app. Never commit real API keys.
 
 ## Run the Project
 
@@ -123,7 +111,6 @@ LangGraph_RA/
 - Search snippets are not independently fact-checked.
 - Add source URLs and inline citations to generated reports.
 - Replace count-based quality scoring with source and evidence evaluation.
-- Add robust handling for rate limits, empty search results, and API failures.
 - Add persistent checkpointing if cross-session memory is required.
 
 ## Author
