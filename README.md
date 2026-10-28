@@ -97,12 +97,13 @@ Stop the Streamlit server by pressing **Ctrl + C** in the terminal.
 
 ```text
 LangGraph_RA/
+├── venv/
+├── .git/
 ├── streamlit_app.py
 ├── research_assistant.py       # Rename to your actual workflow filename if different
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── venv/
 └── Streamlit_SS.png
 ```
 
