@@ -114,9 +114,8 @@ LangGraph_RA/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── .env.example
-└── screenshots/
-    └── streamlit-app.png
+├── venv/
+└── Streamlit_SS.png
 ```
 
 ## Limitations & Future Improvements
